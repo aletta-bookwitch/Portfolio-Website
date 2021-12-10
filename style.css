@@ -3,6 +3,9 @@ html {
 }
 
 body {
+    background-color: rgb(240, 240, 240);
+    background-image: url('./pink-image_processing20200729-13481-1wjxm62.png');
+    background-position: center;
     font-size: 1rem;
     color: rgb(33, 53, 30);
     line-height: 2;
@@ -71,7 +74,7 @@ h6, .h6 {
 
 .outlined {    
     text-align: center;
-    color: white;
+    color: rgb(240, 240, 240);
     font-size: 100px;
     text-shadow: 
         2px 2px 0.5px #ff0000,
@@ -79,4 +82,8 @@ h6, .h6 {
         2px -2px 0.5px #FFFF00,
         -2px 2px 0.5px #0000FF;
 
+}
+
+.highlight {
+    background-color: rgba(114, 85, 243, 0.5);
 }
