@@ -4,35 +4,79 @@ html {
 
 body {
     font-size: 1rem;
+    color: rgb(33, 53, 30);
+    line-height: 2;
 }
 
-.p {
+p, .p {
     font-size: 1rem;
     font-family: 'Readex Pro', sans-serif;
     font-weight: lighter;
+    line-height: 2rem;
 }
 
-.h1 {
-    font-size: 1.33rem;
+h1, .h1 {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
-.h2 {
-    font-size: 1.66rem;
-}
-
-.h3 {
-    font-size: 2rem;
-}
-
-.h4 {
-    font-size: 2.33rem;
-}
-
-.h5 {
+h2, .h2 {
     font-size: 2.66rem;
 }
 
-.h6 {
-    font-size: 3rem;
+h3, .h3 {
+    font-size: 2.33rem;
 }
 
+h4, .h4 {
+    font-size: 2rem;
+}
+
+h5, .h5 {
+    font-size: 1.66rem;
+}
+
+h6, .h6 {
+    font-size: 1.33rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.fancy {
+    text-shadow:
+        1px 1px 2px rgb(52, 92, 46),
+        2px 2px 2x rgb(75, 165, 61),
+        3px 3px 2px rgb(79, 218, 57);
+}
+
+.outlined {    
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    text-shadow: 
+        2px 2px 0.5px #ff0000,
+        -2px -2px 0.5px #00FF00,
+        2px -2px 0.5px #FFFF00,
+        -2px 2px 0.5px #0000FF;
+
+}
