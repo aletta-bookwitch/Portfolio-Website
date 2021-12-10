@@ -1,0 +1,45 @@
+/* Selektor po elementu. */
+
+p {
+    color: green;
+}
+
+/* Selektor po klasi. */
+
+.important {
+    color: red;
+}
+
+/* Selektor po id-u. */
+
+#intro {
+    color: pink;
+}
+
+[target="_blank"] {
+    color: purple;
+}
+
+[href^="mailto"] {
+    color: royalblue;
+}
+
+a:visited {
+    color:magenta
+}
+
+a:hover {
+    color: maroon;
+}
+
+p:first-of-type {
+    background-color: mediumaquamarine;
+}
+
+p:nth-child(3) {
+    background-color: tan;
+}
+
+li:nth-child(2n + 1) {
+    background-color: orange;
+}
