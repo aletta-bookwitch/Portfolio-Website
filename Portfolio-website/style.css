@@ -171,8 +171,9 @@ h6, .h6 {
       }
 
     .project-link {
+        position: relative;
         display: inline-block;
-        background-color: linen;
+        background-color: rgb(250, 240, 230);
         color: goldenrod;
         text-decoration: none;
         font-weight: 700;
@@ -183,6 +184,7 @@ h6, .h6 {
 
     .project-link:hover {
         text-decoration: underline;
+        bottom: 4px;
     }
 
     .project-technology-list {
@@ -202,4 +204,37 @@ h6, .h6 {
 
     .project-technology-list li:last-child {
         margin: 0;
+    }
+
+    .tooltip {
+        position: relative;
+    }
+
+    .tooltip-message {
+        display: none;
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        background: rgb(28, 38, 110, 0.8);
+        color: rgb(250, 240, 230);
+        padding: 8px 12px;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        width: 150%;
+        max-width: 350px;
+
+    }
+
+    .tooltip:hover .tooltip-message {
+        display: inline-block;
+    }
+
+    .float-row {
+        margin: 0 -16px;
+    }
+
+    .float-column{
+        float: left;
+        width: calc(50% - 32px);
+        margin: 0 16px;
     }
