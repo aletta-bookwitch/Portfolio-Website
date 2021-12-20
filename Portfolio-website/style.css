@@ -208,6 +208,7 @@ h6, .h6 {
 
     .tooltip {
         position: relative;
+        display: inline-block;
     }
 
     .tooltip-message {
@@ -231,10 +232,14 @@ h6, .h6 {
 
     .float-row {
         margin: 0 -16px;
-    }
-
-    .float-column{
+      }
+      .float-row::after {
+        content: '';
+        display: block;
+        clear: both;
+      }
+      .float-column {
         float: left;
         width: calc(50% - 32px);
         margin: 0 16px;
-    }
+      }
